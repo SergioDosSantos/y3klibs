@@ -1,0 +1,105 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.section-heading {
+	font-weight: 300;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+}
+
+hr {
+	display: block;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	width: 30%;
+	text-align: left;
+	margin-left: 35%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+}
+
+.card {
+	width: 100%;
+	min-height: 300px;
+	padding: 10px 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.logo-centered {
+	max-height: 250px;
+	max-width: 250px;
+	float: none;
+	display: inline-block;
+	text-align: left;
+}
+
+form {
+	margin-block-end: 0px;
+}
+
+.image-cropper {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.img-circle {
+	display: inline;
+	margin: 0 auto;
+	height: 300px;
+	width: 300px;
+}
+
+.yt-container {
+	position: relative;
+	padding: 120px;
+	overflow: hidden;
+}
+
+
+.yt-container iframe, .yt-container object, .yt-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75%;
+	border: 0px;
+}
+
+.responsive-streaming-video {
+	position: relative;
+	height: 65.66%;
+	width:100%;
+	overflow: hidden;
+}		
+
+.responsive-streaming-video iframe, .responsive-streaming-video object,
+	.responsive-streaming-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
